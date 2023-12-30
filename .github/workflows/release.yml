@@ -97,7 +97,8 @@ jobs:
             goarch: arm64
           # BEGIN Android ARM
           - goos: android
-            goarch: arm  
+            goarch: arm
+            goarm: 7
           # END Android ARM 8
           # Windows ARM
           - goos: windows
